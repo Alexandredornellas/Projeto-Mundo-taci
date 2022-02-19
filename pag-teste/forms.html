@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Taci Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <img src="../assets/img/logo-taci-menor.png" alt="">
+            <div class="linha"></div>
+                 <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburguer"></span>
+        </button>
+        </div>
+
+        <!-- navbar -->
+        <div class="background-page-toda"></div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Logistas</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Aprendizados</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Dicas e Produtos</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Bonificações</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-teste">
+        <!-- Span box -->
+        <div class="span-box">
+            <h2>Você relamente quer fazer esta ação?</h2>
+
+            <input class="input-passw-box" type="password" name="senha">
+
+            <div class="next-cancel-button-wrapper">
+                <input class="cancel-button" type="submit" value="cancelar">
+                <input class="next-button" type="submit" value="próximo">
+            </div>
+        </div>
+        <!-- Form genérico Label + inputbox -->
+        <form class="generic-form">
+            <label for="e-mail">Campo1</label><br>
+            <input class="input-generic-box" type="text" id="Campo1" name="Campo1"><br>
+            <label for="e-mail">Campo2</label><br>
+            <input class="input-generic-box" type="text" id="Campo2" name="Campo2"><br>
+            <label for="e-mail">Campo3</label><br>
+            <input class="input-generic-box" type="text" id="Campo2" name="Campo2"><br>
+            
+        </form>
+
+        <!-- CHECKBOX -->
+        <div class="form-check">
+            <div class="checkbox-wrapper">
+                <input type="checkbox" name="ck1" id="ck1">
+                <label for="ck1"> checkbox1</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" name="ck2" id="ck2">
+                <label for="ck2"> checkbox2</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" name="ck3" id="ck3">
+                <label for="ck3"> checkbox3</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" name="ck4" id="ck4">
+                <label for="ck4"> checkbox4</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" name="ck5" id="ck5">
+                <label for="ck5"> checkbox5</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" name="ck6" id="ck6">
+                <label for="ck6"> checkbox6</label>
+            </div>
+        </div>
+
+
+        <!-- RADIO BUTTONS -->
+        <div class="form-radio">
+            <div class="radio-btn-wrapper">
+                <input type="radio" name="rb" id="rb1">
+                <label for="rb1">radio1</label>
+            </div>
+            <div class="radio-btn-wrapper">
+                <input type="radio" name="rb" id="rb2">
+                <label for="rb2">radio2</label>
+            </div>
+            <div class="radio-btn-wrapper">
+                <input type="radio" name="rb" id="rb3">
+                <label for="rb3">radio3</label>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="marca-wrapper"><p>Powered by C4NGAÇO SYSTEMS</p></div>
+    </footer>
+
+    <script src="../assets/js/geral.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendizados vendedor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-wrapper">
+            <div class="logo-wrapper"><a href="faq.html">
+                <img src="../../assets/img/logo-taci-menor.png" alt="">
+                <div class="linha"></a></div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburguer"></span>
+                </button>
+        <!-- navbar -->
+        <div class="background-page-toda"></div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../lojas-associadas/lojas-associadas.html" class="nav__link">Lojistas</a></li>
+                <li class="nav__item"><a href="../aprendizados/home-aprendizado.html" class="nav__link">Aprendizados</a></li>
+                <li class="nav__item"><a href="../dicas-produtos/dicas-produtos-adm.html" class="nav__link">Dicas e Produtos</a></li>
+                <li class="nav__item"><a href="../bonificacoes-aprendizado/home-bonificacao.html" class="nav__link">Bonificações</a></li>
+                <li class="nav__item"><a href="../faq/faq.html" class="nav__link">FAQ</a></li>
+                <li class="nav__item"><a href="../../index.html" class="nav__link">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h1>Editar FAQ</h1>
+        <form class="generic-form form-faq">
+            <div class="generic-form__box-wrapper">
+                <label for="pergunta">Pergunta</label>
+                <input class="input-generic-box" type="text" id="pergunta" name="pergunta" value="Por que somos 100% algodão?">
+            </div>
+            <div class="generic-form__box-wrapper">
+                <label for="resposta">Resposta</label>
+                <td colspan="2">
+                <textarea class="input-generic-box-textarea" name="resposta" id="resposta" cols="162" rows="14" wrap="soft"style="overflow: hidden;" maxlength="500"></textarea>
+            </td>
+            </div>
+            <div class="next-cancel-button-wrapper">
+                <a href="./faq.html"><button class="cancel-button" type="button">Cancelar</button></a>
+                <a class="salvar" onclick="abrirModal();"><button type="button" id="botao" class="next-button">Salvar</button></a>
+            </div>
+    
+            <div id="fundo"></div>
+            <div id="modal" class="modal">
+                <div class="texto-aviso">
+                    <p>FAQ editada com sucesso!</p>
+                </div>
+                <div class="modal__btns´wrappers">
+                    <button class="modal__btn-primary" onclick="fecharModal()"><a href="./faq.html">Fechar</button>
+                </div>
+            </div>
+        </form>
+
+    </section>
+    <footer>
+        <div class="marca-wrapper">
+            <p>Powered by C4NGAÇO SYSTEMS</p>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/geral.js"></script>
+</body>
+
+</html>
